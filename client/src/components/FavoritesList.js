@@ -8,15 +8,12 @@ function FavoritesList() {
     // Get the list of favorite items from Redux state
     const favorites = useSelector(state => state.favorites);
     
-    // Log the favorites for debugging purposes
-    console.log("Favorites:", favorites);
     
     // Initialize dispatch function for Redux actions
     const dispatch = useDispatch();
 
     // Handler to remove an item from the favorites list
     const handleRemoveFromFavorites = (item) => {
-        console.log("Removing:", item);
         dispatch(removeFavorite(item));
     };
 
