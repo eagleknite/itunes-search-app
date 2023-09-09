@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="p-4"
+  >
+    <div
+      class="max-w-xl mx-auto bg-gray-100 p-4 rounded-md shadow-md"
+    >
+      <form>
+        <input
+          class="w-full p-2 border rounded-md mr-2 mb-2"
+          id="searchTerm"
+          placeholder="🔍 Search..."
+          type="text"
+          value=""
+        />
+        <div
+          class="flex justify-between items-center"
+        >
+          <select
+            class="bg-gray-200 p-2 rounded-md"
+          >
+            <option
+              value="all"
+            >
+              All
+            </option>
+            <option
+              value="movie"
+            >
+              Movie
+            </option>
+            <option
+              value="podcast"
+            >
+              Podcast
+            </option>
+            <option
+              value="music"
+            >
+              Music
+            </option>
+            <option
+              value="audiobook"
+            >
+              Audiobook
+            </option>
+            <option
+              value="shortFilm"
+            >
+              Short Film
+            </option>
+            <option
+              value="tvShow"
+            >
+              TV Show
+            </option>
+            <option
+              value="software"
+            >
+              Software
+            </option>
+            <option
+              value="ebook"
+            >
+              Ebook
+            </option>
+          </select>
+          <button
+            class="bg-blue-500 text-white p-2 rounded-md ml-2 hover:bg-blue-600 transition-colors"
+          >
+            Search
+          </button>
+          <div
+            class="ml-4"
+          >
+            <label
+              class="mr-2"
+              for="sortOptions"
+            >
+              Sort By:
+            </label>
+            <select
+              class="border p-2 rounded-md"
+              id="sortOptions"
+            >
+              <option
+                value="releaseDate"
+              >
+                Release Date
+              </option>
+              <option
+                value="trackPrice"
+              >
+                Price
+              </option>
+              <option
+                value="primaryGenreName"
+              >
+                Genre
+              </option>
+              <option
+                value="artistName"
+              >
+                Artist
+              </option>
+              <option
+                value="collectionName"
+              >
+                Album
+              </option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 bg-gray-50 rounded-md"
+    >
+      <div
+        class="border rounded-md p-3 relative hover:shadow-lg transition-shadow duration-300 cursor-pointer"
+      >
+        <img
+          alt="Test Track"
+          class="mx-auto mb-2 w-full"
+          src="test.jpg"
+        />
+        <h3
+          class="text-center text-lg font-bold mb-2"
+        >
+          Test Track
+        </h3>
+        <p
+          class="text-center text-sm mb-2"
+        >
+          Description
+        </p>
+        <button
+          class="absolute top-2 right-2 bg-blue-500 text-white rounded-full p-1 hover:bg-blue-600"
+        >
+          Add
+        </button>
+      </div>
+    </div>
+    <div
+      class="flex justify-center mt-4"
+    >
+      <button
+        disabled=""
+      >
+        Previous
+      </button>
+      <button
+        class="mx-1 p-2 rounded bg-blue-500 text-white"
+      >
+        1
+      </button>
+      <button
+        disabled=""
+      >
+        Next
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
