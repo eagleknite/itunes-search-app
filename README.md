@@ -46,7 +46,7 @@ npm run dev
 ### Available Scripts
 
 - `npm start`: Starts the server.
-- `npm run client`: Starts the client-side application (assuming it's in the `client` directory).
+- `npm run client`: Starts the client-side application (this work if you add `client` directory, to the `itunes-search-app` directory).
 - `npm test`: Runs the Jest tests.
 - `npm run dev`: Runs both the server and the client concurrently.
 
