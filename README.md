@@ -27,6 +27,8 @@ cd itunes-search-app
 npm install
 ```
 
+## 
+
 ### Running the App
 
 - To start the server:
@@ -66,9 +68,13 @@ npm run dev
 - `GET /`: Default endpoint to check server status.
 - `GET /api/search`: Endpoint to search iTunes content based on provided query parameters.
 
+## Link to the deployed api
+
+- [iTunes Search App Backend](https://itunes-search-app-ifbi.onrender.com/)
+
 ## Author
 
-[Your Name]
+Arnold Twala
 
 ## License
 
