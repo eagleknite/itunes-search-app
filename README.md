@@ -17,7 +17,7 @@ This is the backend service for the iTunes Search App. The backend is built usin
 1. Clone the repository:
 
 ```bash
-git clone [your-repository-url] itunes-search-app
+git clone [https://github.com/eagleknite/itunes-search-app] itunes-search-app
 cd itunes-search-app
 ```
 
